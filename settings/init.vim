@@ -57,6 +57,7 @@ noremap <space>ec :tabedit $MYVIMRC <cr>
 noremap <space>sc :source $MYVIMRC <cr> 
 noremap <space>e. :e . <cr> 
 noremap <space>en :tabedit . <cr> 
+noremap <space><tab> :Lexplore <bar> :vertical resize 40 <cr> 
 
 "window movement"
 noremap <space>l <C-w>l 
