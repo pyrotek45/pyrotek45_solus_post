@@ -19,7 +19,7 @@ echo "done setting up neovim"
 
 #setting up lazarus
 #development files for lazarus
-sudo eopkg install -c system.devel
+sudo eopkg install -c system.devel -y
 sudo eopkg install -y pango-devel
 sudo eopkg install -y libcairo-devel
 sudo eopkg install -y gdk-pixbuf-devel
